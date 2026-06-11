@@ -1,0 +1,5 @@
+[
+  { "title": "Laptop", "price": 999.99, "description": "A laptop", "image": "https://i.pravatar.cc", "category": "electronics" },
+  { "title": "T-Shirt", "price": 19.99, "description": "A shirt", "image": "https://i.pravatar.cc", "category": "men's clothing" },
+  { "title": "Ring",    "price": 49.99, "description": "A ring",  "image": "https://i.pravatar.cc", "category": "jewelery" }
+]
