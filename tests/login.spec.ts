@@ -24,7 +24,7 @@ test("Verify error is thrown when user use wrong credentials", async () => {
 
 test("Verify error is thrown when locked out user tries to login", async () => {
    await loginPage.login("locked_out_user", "secret_sauce");
-   expect(await loginPage.isWrongCredentialsErrorVisible()).toBeTruthy();
+   expect(await loginPage.isLocketOutUserErrorVisible()).toBeTruthy();
 });
 
 test("Verify user is successfully logged in with valid credentials", async ({ page }) => {
